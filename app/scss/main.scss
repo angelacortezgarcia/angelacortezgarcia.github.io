@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css?family=Titillium+Web');
+// variables
+$font-stack: 'Titillium Web', sans-serif;
+$banner-color: #901B9C ;
+$services-color: #00CCA5;
+$team-color: #E6F1F8;
+$testimonial-color: #E2007D;
+$contact-color: #4B369B;
+$footer-color: #432D8F;
+$hr-color: #95a5a6;
+$orange: #F17B40;
+$cyan: #00CCA5;
+// end of variables
+
+// header
+@import 'header';
+// services
+@import 'services';
+// team
+@import 'team';
+// skills
+@import 'skills';
+// portfolio
+@import 'portfolio';
+// testimonials
+@import 'testimonials';
+// contact
+@import 'contact';
+// footer
+@import 'footer';
+
+
+body {
+    font-family: $font-stack;
+}
+hr {
+  height:5px;
+  border:none;
+  color:#333;
+  background-color:$hr-color;
+  width:15%;
+}
+h2 {
+  text-transform: uppercase;
+  font-weight:bold;
+  letter-spacing: 5px;
+}
+p {
+  font-size: 16px;
+}
+
+.section-main-heading {
+  width:50%;
+  margin:0 auto;
+  padding-bottom: 3%;
+}
+.button {
+  border-radius: 5px;
+  padding: 15px 25px;
+  font-size: 22px;
+  text-decoration: none;
+  margin: 20px;
+  color: #fff;
+  position: relative;
+  display: inline-block;
+}
+
+.button:active {
+  transform: translate(0px, 5px);
+  -webkit-transform: translate(0px, 5px);
+  box-shadow: 0px 1px 0px 0px;
+}
+
+.orange {
+  background-color: $orange;
+  box-shadow: 0px 5px 0px 0px #CD6509;
+  margin-top: 5%;
+}
+.cyan {
+  background-color: $cyan;
+  box-shadow: 0px 5px 0px 0px #00A892;
+  margin-top: 5%;
+  border: 0;
+}
+/*-----navbar-----*/
+.opaque-navbar {
+  border-bottom: 0px;
+  transition: background-color .5s ease 0s;
+}
+#navMain ul li a {
+  color: #fff;
+
+}
+.navbar-image {
+  height:30px;
+
+}

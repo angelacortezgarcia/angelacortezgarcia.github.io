@@ -1,0 +1,23 @@
+.contact-us {
+  background-color:$contact-color;
+  padding-top:5%;
+  padding-bottom:5%;
+  color: #fff;
+}
+.controls input[type=text],.controls input[type=email],.controls textarea {
+  background-color: #381D75;
+  color: #ffffff;
+  border: 0;
+}
+input[type=text]::placeholder,input[type=email]::placeholder, textarea[type="text"]::placeholder {
+  color: #fff;
+}
+.controls input[type=text],.controls input[type=email] {
+    padding: 15px 20px;
+    margin: 10% 0 0 0;
+    box-sizing: border-box;
+}
+.controls {
+  width:50%;
+  margin: 0 auto;
+}

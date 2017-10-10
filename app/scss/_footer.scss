@@ -1,0 +1,25 @@
+footer {
+  background-color: $footer-color;
+  border-top: 0.5px solid #432D8F;
+}
+footer ul li a {
+  color: #ffffff;
+  font-weight: bold;
+}
+footer ul li a:hover {
+  color: #378CCC;
+  text-decoration: none;
+}
+.flex-container {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.flex-item {
+  margin: 10px;
+  width: 100px;
+  text-align: center;
+}

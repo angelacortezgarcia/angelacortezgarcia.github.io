@@ -1,0 +1,58 @@
+.team {
+  background-size: cover;
+  background-repeat: repeat-y;
+  background-color:$team-color;
+  padding-top:5%;
+  padding-bottom:5%;
+}
+
+.team-member {
+  margin-bottom: 50px;
+  text-align: center;
+
+  img {
+    margin-top: 10%;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+  }
+  h4 {
+    margin-top: 25px;
+    margin-bottom: 0;
+    text-transform:uppercase;
+    font-weight: bold;
+    font-size: 20px;
+  }
+  p {
+    margin-top: 0;
+  }
+
+  .text-muted {
+    color: #68AFC4;
+  }
+}
+
+ul.social-buttons {
+  margin-bottom: 0;
+
+  li a {
+    font-size: 20px;
+    line-height: 40px;
+    display: block;
+    width: 40px;
+    height: 40px;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+    color: white;
+    border-radius: 100%;
+    outline: none;
+    background-color: #B8CCE4;
+  }
+
+  li a:hover {
+    background-color: #000;
+    color:#B8cce4;
+    transition: all 0.3s;
+  }
+}

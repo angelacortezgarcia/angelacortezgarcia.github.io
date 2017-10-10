@@ -1,0 +1,19 @@
+{
+  "name": "gela-front-end",
+  "version": "1.0.0",
+  "description": "front end task by kevin ventura",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "angela garcia",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-less": "^3.3.2",
+    "gulp-sass": "^3.1.0"
+  },
+  "dependencies": {
+    "animate.css": "^3.5.2"
+  }
+}
