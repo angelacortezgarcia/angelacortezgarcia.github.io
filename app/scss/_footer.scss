@@ -2,9 +2,16 @@ footer {
   background-color: $footer-color;
   border-top: 0.5px solid #432D8F;
 }
-footer ul li a {
-  color: #ffffff;
-  font-weight: bold;
+footer {
+  ul {
+      li {
+        a {
+          color: #ffffff;
+          font-weight: bold;
+        }
+      }
+  }
+
 }
 footer ul li a:hover {
   color: #378CCC;
@@ -22,4 +29,14 @@ footer ul li a:hover {
   margin: 10px;
   width: 100px;
   text-align: center;
+}
+
+@media (max-width: 500px) {
+  footer ul li a {
+    font-size: 10px;
+  }
+  footer ul li a:hover {
+    color: #378CCC;
+    text-decoration: none;
+  }
 }

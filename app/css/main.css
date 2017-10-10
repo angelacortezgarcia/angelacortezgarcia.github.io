@@ -347,8 +347,16 @@ footer ul li a:hover {
   width: 100px;
   text-align: center; }
 
+@media (max-width: 500px) {
+  footer ul li a {
+    font-size: 10px; }
+  footer ul li a:hover {
+    color: #378CCC;
+    text-decoration: none; } }
+
 body {
-  font-family: "Titillium Web", sans-serif; }
+  font-family: "Titillium Web", sans-serif;
+  overflow-x: hidden; }
 
 hr {
   height: 5px;
@@ -406,3 +414,8 @@ p {
 
 .navbar-image {
   height: 30px; }
+
+@media (max-width: 500px) {
+  .button {
+    width: auto;
+    font-size: 18px; } }
