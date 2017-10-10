@@ -29,10 +29,10 @@ $cyan: #00CCA5;
 // footer
 @import 'footer';
 
-
+html,
 body {
     font-family: $font-stack;
-    overflow-x: hidden;
+    overflow-x: hidden !important;
 }
 hr {
   height:5px;
