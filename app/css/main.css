@@ -412,7 +412,7 @@ p {
 /*-----navbar-----*/
 .opaque-navbar {
   border-bottom: 0px;
-  transition: background-color .5s ease 0s; }
+  background-color: #901B9C; }
 
 #navMain ul li a {
   color: #fff; }
