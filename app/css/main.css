@@ -338,7 +338,12 @@ footer ul li a:hover {
   padding: 0;
   margin: 0;
   list-style: none;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
   display: flex;
+  -webkit-flex-flow: row wrap;
   align-items: center;
   justify-content: center; }
 
@@ -348,11 +353,10 @@ footer ul li a:hover {
   text-align: center; }
 
 @media (max-width: 500px) {
-  footer ul li a {
-    font-size: 10px; }
-  footer ul li a:hover {
-    color: #378CCC;
-    text-decoration: none; } }
+  footer ul li a h3 {
+    font-size: 16px; }
+  .flex-item {
+    margin: 2px; } }
 
 html,
 body {
@@ -416,7 +420,13 @@ p {
 .navbar-image {
   height: 30px; }
 
-@media (max-width: 500px) {
+@media (max-width: 700px) {
   .button {
     width: auto;
-    font-size: 18px; } }
+    font-size: 18px; }
+  .section-main-heading {
+    width: 100%;
+    margin: 0 auto;
+    padding-bottom: 3%; }
+    .section-main-heading h2 {
+      width: 100%; } }
