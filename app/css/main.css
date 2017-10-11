@@ -412,10 +412,14 @@ p {
 /*-----navbar-----*/
 .opaque-navbar {
   border-bottom: 0px;
-  background-color: #901B9C; }
+  background-color: #901B9C;
+  border-color: transparent; }
 
 #navMain ul li a {
   color: #fff; }
+
+.navbar-toggle {
+  border: 0px; }
 
 .navbar-image {
   height: 30px; }
