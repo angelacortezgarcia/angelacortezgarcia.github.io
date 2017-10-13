@@ -1,11 +1,4 @@
 @import url("https://fonts.googleapis.com/css?family=Titillium+Web");
-.banner h3 {
-  margin: 0;
-  text-align: center;
-  font-size: 32px;
-  font-weight: bold;
-  padding: 40px auto 40px auto; }
-
 .banner {
   color: white;
   background-color: #901B9C;
@@ -16,13 +9,18 @@
   justify-content: center;
   -webkit-box-align: center;
   align-items: center; }
+  .banner h3 {
+    margin: 0;
+    text-align: center;
+    font-size: 32px;
+    font-weight: bold;
+    padding: 40px auto 40px auto; }
 
 .banner-text {
   width: 80%;
   padding: 5%; }
-
-.banner-text a {
-  text-decoration: none; }
+  .banner-text a {
+    text-decoration: none; }
 
 .services {
   background-color: #00CCA5;
@@ -165,28 +163,28 @@ ul.social-buttons {
 .progress.blue .progress-bar {
   border-color: #1EB1EB; }
 
-.progress.yellow .progress-bar {
+.progress.pink .progress-bar {
   border-color: #E4007F;
   /*pink*/ }
 
-.progress.pink .progress-bar {
+.progress.green .progress-bar {
   border-color: #00CFAA;
   /*green*/ }
 
-.progress.green .progress-bar {
+.progress.oranges .progress-bar {
   border-color: #F57842;
   /*orange*/ }
 
 .progress.blue .progress-left .progress-bar {
   animation: loading-2 1.5s linear forwards 1.8s; }
 
-.progress.yellow .progress-left .progress-bar {
+.progress.pink .progress-left .progress-bar {
   animation: loading-3 1s linear forwards 1.8s; }
 
-.progress.pink .progress-left .progress-bar {
+.progress.green .progress-left .progress-bar {
   animation: loading-4 0.4s linear forwards 1.8s; }
 
-.progress.green .progress-left .progress-bar {
+.progress.oranges .progress-left .progress-bar {
   animation: loading-5 1.2s linear forwards 1.8s; }
 
 @keyframes loading-1 {

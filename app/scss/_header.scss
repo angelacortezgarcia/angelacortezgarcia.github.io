@@ -1,10 +1,4 @@
-.banner h3 {
-  margin: 0;
-  text-align: center;
-  font-size: 32px;
-  font-weight: bold;
-  padding: 40px auto 40px auto;
-}
+
 .banner {
   color: white;
   background-color: $banner-color;
@@ -15,11 +9,19 @@
   justify-content: center;
   -webkit-box-align: center;
   align-items: center;
+
+  h3 {
+    margin: 0;
+    text-align: center;
+    font-size: 32px;
+    font-weight: bold;
+    padding: 40px auto 40px auto;
+  }
 }
 .banner-text {
   width:80%;
   padding: 5%;
-}
-.banner-text a {
-  text-decoration: none;
+  a {
+    text-decoration: none;
+  }
 }
